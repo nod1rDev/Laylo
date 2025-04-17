@@ -10,6 +10,7 @@ import { LanguageProvider } from "@/lib/language-context";
 import FloatingChat from "@/components/FloatingChat";
 import SocialBar from "@/components/SocialBar";
 import { UIProvider } from "@/lib/ui-context"
+import { Analytics } from "@vercel/analytics/react"
 
 const inter = Inter({ subsets: ["latin", "cyrillic"] });
 
