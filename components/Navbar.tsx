@@ -1,30 +1,30 @@
-"use client"
+"use client";
 
-import { useState } from "react"
-import Link from "next/link"
-import { Menu, X, ShoppingCart } from "lucide-react"
-import LanguageSwitcher from "./LanguageSwitcher"
-import { useTranslation } from "@/lib/language-context"
-import { useCart } from "@/lib/cart-context"
+import { useState } from "react";
+import Link from "next/link";
+import { Menu, X, ShoppingCart } from "lucide-react";
+import LanguageSwitcher from "./LanguageSwitcher";
+import { useTranslation } from "@/lib/language-context";
+import { useCart } from "@/lib/cart-context";
 
 export default function Navbar() {
-  const [isOpen, setIsOpen] = useState(false)
-  const { t } = useTranslation()
-  const { toggleCart, totalItems } = useCart()
+  const [isOpen, setIsOpen] = useState(false);
+  const { t } = useTranslation();
+  const { toggleCart, totalItems } = useCart();
 
   const toggleMenu = () => {
-    setIsOpen(!isOpen)
-  }
+    setIsOpen(!isOpen);
+  };
 
   const navLinks = [
     { name: t("nav.home"), href: "/" },
+    { name: t("nav.aboutUs"), href: "/about-us" },
     { name: t("nav.products"), href: "/products" },
     { name: t("nav.community"), href: "/community" },
-    { name: t("nav.consulting"), href: "/consulting" },
     { name: t("nav.guide"), href: "/guide" },
     { name: t("nav.blog"), href: "/blog" },
-    { name: t("nav.aboutUs"), href: "/about-us" },
-  ]
+    { name: t("nav.consulting"), href: "/consulting" },
+  ];
 
   return (
     <nav className="bg-white shadow-md sticky top-0 z-40">
@@ -55,7 +55,11 @@ export default function Navbar() {
           {/* Right side items */}
           <div className="hidden md:flex items-center space-x-4">
             <LanguageSwitcher />
-            <button onClick={toggleCart} className="text-gray-700 hover:text-pink-600 relative" aria-label="Open cart">
+            <button
+              onClick={toggleCart}
+              className="text-gray-700 hover:text-pink-600 relative"
+              aria-label="Open cart"
+            >
               <ShoppingCart className="h-6 w-6" />
               {totalItems > 0 && (
                 <span className="absolute -top-2 -right-2 bg-pink-600 text-white text-xs w-5 h-5 rounded-full flex items-center justify-center">
@@ -80,8 +84,15 @@ export default function Navbar() {
                 </span>
               )}
             </button>
-            <button onClick={toggleMenu} className="text-gray-700 hover:text-pink-600 focus:outline-none">
-              {isOpen ? <X className="h-6 w-6" /> : <Menu className="h-6 w-6" />}
+            <button
+              onClick={toggleMenu}
+              className="text-gray-700 hover:text-pink-600 focus:outline-none"
+            >
+              {isOpen ? (
+                <X className="h-6 w-6" />
+              ) : (
+                <Menu className="h-6 w-6" />
+              )}
             </button>
           </div>
         </div>
@@ -105,5 +116,5 @@ export default function Navbar() {
         </div>
       )}
     </nav>
-  )
+  );
 }
