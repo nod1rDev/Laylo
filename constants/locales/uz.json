@@ -1,0 +1,110 @@
+{
+  "nav": {
+    "home": "Bosh sahifa",
+    "products": "Mahsulotlar",
+    "community": "Jamiyat",
+    "consulting": "Maslahat",
+    "guide": "Qo'llanma",
+    "blog": "Blog",
+    "aboutUs": "Biz haqimizda"
+  },
+  "hero": {
+    "title": "Har kim uchun go'zallik mahsulotlari",
+    "subtitle": "Premium Faberlic mahsulotlarini kashf eting va maxsus takliflar va go'zallik maslahatlari uchun bizning eksklyuziv jamiyatimizga qo'shiling.",
+    "shopNow": "Hozir xarid qilish",
+    "joinCommunity": "Jamiyatga qo'shilish"
+  },
+  "home": {
+    "trendingProducts": "Trend mahsulotlar",
+    "viewAll": "Hammasini ko'rish"
+  },
+  "product": {
+    "currency": "so'm",
+    "addToCart": "Savatga qo'shish",
+    "lowStock": "Faqat {count} ta qoldi",
+    "outOfStock": "Tugagan",
+    "category": "Kategoriya",
+    "description": "Tavsif",
+    "relatedProducts": "O'xshash mahsulotlar"
+  },
+  "community": {
+    "title": "LAYLO jamiyatiga qo'shiling",
+    "subtitle": "Bizning o'sib borayotgan oilamizning bir qismi bo'ling va eksklyuziv imtiyozlar va qo'llab-quvvatlashdan bahramand bo'ling.",
+    "joinNow": "Hozir qo'shiling",
+    "benefits": {
+      "discounts": {
+        "title": "Eksklyuziv chegirmalar",
+        "description": "Faqat jamiyat a'zolari uchun mavjud bo'lgan maxsus narxlar va aksiyalarga kirish imkoniyatiga ega bo'ling."
+      },
+      "support": {
+        "title": "Jamiyat qo'llab-quvvatlashi",
+        "description": "Sizni go'zallik yo'lingizda yo'naltira oladigan tajribali a'zolar bilan bog'laning."
+      },
+      "growth": {
+        "title": "Shaxsiy o'sish",
+        "description": "Bizning qo'llab-quvvatlash tizimimiz bilan o'z ko'nikmalaringizni rivojlantiring va hatto o'z biznesingizni quring."
+      }
+    }
+  },
+  "footer": {
+    "description": "LAYLO - premium Faberlic go'zallik mahsulotlari va qo'llab-quvvatlovchi jamiyat uchun ishonchli hamkoringiz.",
+    "quickLinks": "Tezkor havolalar",
+    "contact": "Biz bilan bog'laning",
+    "phone": "Telefon",
+    "address": "Toshkent, O'zbekiston",
+    "rights": "Barcha huquqlar himoyalangan"
+  },
+  "search": "Qidirish",
+  "filters": "Filtrlar",
+  "all": "Barcha kategoriyalar",
+  "clearFilters": "Filtrlarni tozalash",
+  "noProductsFound": "Sizning mezonlaringizga mos mahsulotlar topilmadi",
+  "sortBy": "Saralash",
+  "newest": "Eng yangi",
+  "priceHighToLow": "Narx: yuqoridan pastga",
+  "priceLowToHigh": "Narx: pastdan yuqoriga",
+  "cart": {
+    "title": "Savatingiz",
+    "empty": "Savatingiz bo'sh",
+    "shopNow": "Hozir xarid qilish",
+    "subtotal": "Oraliq jami",
+    "continueShopping": "Xarid qilishni davom ettirish",
+    "checkout": "Buyurtma berish"
+  },
+  "checkout": {
+    "title": "Buyurtma berish",
+    "backToShopping": "Xarid qilishga qaytish",
+    "customerInfo": "Mijoz ma'lumotlari",
+    "shippingInfo": "Yetkazib berish ma'lumotlari",
+    "paymentMethod": "To'lov usuli",
+    "orderSummary": "Buyurtma xulosasi",
+    "firstName": "Ism",
+    "lastName": "Familiya",
+    "email": "Elektron pochta",
+    "phone": "Telefon",
+    "address": "Manzil",
+    "city": "Shahar",
+    "postalCode": "Pochta indeksi",
+    "paymentMethods": {
+      "card": "Kredit/debet karta",
+      "cash": "Yetkazib berishda naqd pul"
+    },
+    "subtotal": "Oraliq jami",
+    "shipping": "Yetkazib berish",
+    "total": "Jami",
+    "free": "Bepul",
+    "freeShippingApplied": "Sizning buyurtmangizga bepul yetkazib berish qo'llanildi!",
+    "placeOrder": "Buyurtma berish",
+    "processing": "Ishlov berilmoqda...",
+    "errors": {
+      "required": "Bu maydon talab qilinadi",
+      "invalidEmail": "Iltimos, to'g'ri elektron pochta manzilini kiriting",
+      "invalidPhone": "Iltimos, to'g'ri telefon raqamini kiriting"
+    },
+    "orderComplete": {
+      "title": "Buyurtma muvaffaqiyatli joylashtirildi!",
+      "message": "Buyurtmangiz uchun rahmat. Biz sizning xaridingizni qabul qildik va tez orada uni qayta ishlaymiz. Siz buyurtmangiz tafsilotlari bilan tasdiqlovchi elektron pochta xabarini olasiz.",
+      "continueShopping": "Xarid qilishni davom ettirish"
+    }
+  }
+}

@@ -1,0 +1,120 @@
+{
+  "nav": {
+    "home": "Home",
+    "products": "Products",
+    "community": "Community",
+    "consulting": "Consulting",
+    "guide": "Guide",
+    "blog": "Blog",
+    "aboutUs": "About Us"
+  },
+  "hero": {
+    "title": "Beauty Products for Everyone",
+    "subtitle": "Discover premium Faberlic products and join our exclusive community for special offers and beauty tips.",
+    "shopNow": "Shop Now",
+    "joinCommunity": "Join Community"
+  },
+  "home": {
+    "trendingProducts": "Trending Products",
+    "viewAll": "View All"
+  },
+  "product": {
+    "currency": "UZS",
+    "addToCart": "Add to Cart",
+    "lowStock": "Only {count} left",
+    "outOfStock": "Out of Stock",
+    "category": "Category",
+    "description": "Description",
+    "relatedProducts": "Related Products",
+    "inStock": "In Stock",
+    "quantity": "Quantity",
+    "wishlist": "Add to Wishlist",
+    "share": "Share"
+  },
+  "community": {
+    "title": "Join Our LAYLO Community",
+    "subtitle": "Become part of our growing family and enjoy exclusive benefits and support.",
+    "joinNow": "Join Now",
+    "benefits": {
+      "discounts": {
+        "title": "Exclusive Discounts",
+        "description": "Get access to special prices and promotions available only to community members."
+      },
+      "support": {
+        "title": "Community Support",
+        "description": "Connect with experienced members who can guide you through your beauty journey."
+      },
+      "growth": {
+        "title": "Personal Growth",
+        "description": "Develop your skills and even build your own business with our support system."
+      }
+    }
+  },
+  "footer": {
+    "description": "LAYLO is your trusted partner for premium Faberlic beauty products and a supportive community.",
+    "quickLinks": "Quick Links",
+    "contact": "Contact Us",
+    "phone": "Phone",
+    "address": "Tashkent, Uzbekistan",
+    "rights": "All Rights Reserved"
+  },
+  "search": "Search",
+  "filters": "Filters",
+  "all": "All Categories",
+  "clearFilters": "Clear Filters",
+  "noProductsFound": "No products found matching your criteria",
+  "sortBy": "Sort By",
+  "newest": "Newest",
+  "priceHighToLow": "Price: High to Low",
+  "priceLowToHigh": "Price: Low to High",
+  "productNotFound": "Product Not Found",
+  "productNotFoundDesc": "The product you are looking for does not exist or has been removed.",
+  "backToProducts": "Back to Products",
+  "freeShipping": "Free shipping on orders over 500,000 UZS",
+  "securePayment": "Secure payment",
+  "moneyBack": "30-day money-back guarantee",
+  "cart": {
+    "title": "Your Cart",
+    "empty": "Your cart is empty",
+    "shopNow": "Shop Now",
+    "subtotal": "Subtotal",
+    "continueShopping": "Continue Shopping",
+    "checkout": "Proceed to Checkout"
+  },
+  "checkout": {
+    "title": "Checkout",
+    "backToShopping": "Back to shopping",
+    "customerInfo": "Customer Information",
+    "shippingInfo": "Shipping Information",
+    "paymentMethod": "Payment Method",
+    "orderSummary": "Order Summary",
+    "firstName": "First Name",
+    "lastName": "Last Name",
+    "email": "Email",
+    "phone": "Phone",
+    "address": "Address",
+    "city": "City",
+    "postalCode": "Postal Code",
+    "paymentMethods": {
+      "card": "Credit/Debit Card",
+      "cash": "Cash on Delivery"
+    },
+    "subtotal": "Subtotal",
+    "shipping": "Shipping",
+    "total": "Total",
+    "free": "Free",
+    "freeShippingApplied": "Free shipping applied to your order!",
+    "placeOrder": "Place Order",
+    "processing": "Processing...",
+    "errors": {
+      "required": "This field is required",
+      "invalidEmail": "Please enter a valid email",
+      "invalidPhone": "Please enter a valid phone number"
+    },
+    "orderComplete": {
+      "title": "Order Placed Successfully!",
+      "message": "Thank you for your order. We've received your purchase and will process it shortly. You'll receive a confirmation email with your order details.",
+      "continueShopping": "Continue Shopping"
+    }
+  }
+}
