@@ -4,7 +4,7 @@ import ProductCard from "@/components/ProductCard";
 import { useCart } from "@/lib/cart-context";
 import { useTranslation } from "@/lib/language-context";
 import {
-  getProductBySlug,
+  
   getProductsByCategory,
   getTopProducts,
 } from "@/lib/products";

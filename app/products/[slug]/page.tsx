@@ -4,16 +4,17 @@ import ProductDetail from "./ProductDetails";
 
 // Define types
 type Props = {
-  params: { slug: string };
-  searchParams: { [key: string]: string | string[] | undefined };
+  params: {
+    slug: string;
+  };
 };
 
 // Metadata generation (unchanged)
 export async function generateMetadata(
-  { params }: Props,
+  { params }: any,
   parent: ResolvingMetadata
 ): Promise<Metadata> {
-  const product = await getProductBySlug(params.slug); // <-- await qo‘shildi
+  const product =  getProductBySlug(params.slug);
 
   if (!product)
     return {
@@ -64,8 +65,12 @@ export async function generateMetadata(
 }
 
 // ✅ Client hook kerakmas — params bevosita props orqali keladi
-export default function Page({ params }: Props) {
-  const slug = params.slug as string;
-  const product = getProductBySlug(slug);
+export default  function Page({ params }: any) {
+  const product =  getProductBySlug(params.slug);
+
+  if (!product) {
+    return null;
+  }
+
   return <ProductDetail product={product} />;
 }
