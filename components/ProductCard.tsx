@@ -24,7 +24,7 @@ export default function ProductCard({ product }: ProductCardProps) {
     <div className="bg-white rounded-lg shadow-md overflow-hidden hover:shadow-lg transition-shadow">
       <Link href={`/products/${slug}`}>
         <div className="relative h-64 w-full">
-          <Image src={image || "/images/placeholder.jpg"} alt={name} fill className="object-cover" />
+          <Image src={image || "/images/placeholder.jpg"} alt={name} fill className="object-contain" />
           {salePrice && (
             <div className="absolute top-2 right-2 bg-red-500 text-white text-xs font-bold px-2 py-1 rounded">
               -{discountPercentage}%

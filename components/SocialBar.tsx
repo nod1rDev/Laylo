@@ -55,7 +55,7 @@ export default function SocialBar() {
               shadow-lg transform transition-all duration-300 group-hover:scale-110 
               group-hover:shadow-xl relative z-10`}
             >
-              <link.icon size={16} className="md:w-5 md:h-5" />
+              <link.icon size={20} className="md:w-5 md:h-5" />
             </span>
           </a>
         ))}

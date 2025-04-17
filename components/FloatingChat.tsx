@@ -1,6 +1,6 @@
 "use client"
 
-import { useState } from "react"
+
 import { MessageCircle, X, Send, Smile } from "lucide-react"
 import { useTranslation } from "@/lib/language-context"
 import Image from "next/image"
@@ -11,7 +11,7 @@ export default function FloatingChat() {
   const { t } = useTranslation()
 
   return (
-    <div className="fixed bottom-20 right-4 z-30 md:bottom-6">
+    <div className="fixed bottom-6 right-4 z-30 md:bottom-6">
       {isChatOpen ? (
         <div className="bg-white rounded-2xl shadow-2xl w-[320px] md:w-[380px] h-[480px] flex flex-col overflow-hidden 
           transition-all duration-500 ease-in-out transform translate-y-0 opacity-100"
